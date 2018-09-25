@@ -25,5 +25,5 @@ else if(nama !== "" && peran === "Penyihir") {
 }
 
 else {
-  console.log("Isi nama dan peran dengan benar")
+  console.log("Isi nama dan peran dengan benar");
 }

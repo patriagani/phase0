@@ -40,7 +40,7 @@ ELSE
 
 STORE "pakaian" with 0
 
-WHILE "pakaian" <21
+WHILE "pakaian" <20
   ADD "pakaian" by 1
 
 DO "nyalakan mesin cuci"
@@ -51,7 +51,7 @@ DO "nyalakan mesin cuci"
 
 STORE "siswa" with 0
 
-WHILE "siswa" < 41
+WHILE "siswa" < 40
   ADD "murid" by 1
 
 IF "siswa" equals to "kuku panjang"

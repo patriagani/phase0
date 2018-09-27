@@ -1,4 +1,5 @@
 // 1. Melakukan Looping Menggunakan While
+console.log("1. Melakukan Looping Menggunakan While");
 
 var angka = 0
 var angka2 = 1
@@ -20,6 +21,7 @@ while (angka > 2) {
 
 
 // 2. Melakukan Looping Menggunakan For
+console.log("2. Melakukan Looping Menggunakan For");
 
 console.log("LOOPING PERTAMA");
 for (var angka = 1; angka <= 20; angka++) {
@@ -34,6 +36,7 @@ for (var angka = 20; angka > 0; angka--) {
 
 
 // 3. Angka Ganjil dan Genap
+console.log("3. Angka Ganjil dan Genap");
 
 // Counter Ganjil Genap
 while (angka < 100) {
@@ -46,6 +49,7 @@ while (angka < 100) {
 }
 
 //Counter Pertambahan 2
+console.log("Counter Pertambahan 2");
 while (angka2 <= 100) {
   if (angka2 % 3 === 0) {
     console.log(angka2, "Kelipatan 3")
@@ -57,6 +61,7 @@ while (angka2 <= 100) {
 
 
 //Counter Pertambahan 5
+console.log("Counter Pertambahan 5");
 while (angka5 <= 100) {
   if (angka5 % 6 === 0) {
     console.log(angka5, "Kelipatan 6")
@@ -68,6 +73,7 @@ while (angka5 <= 100) {
 
 
 //Counter Pertambahan 9
+console.log("Counter Pertambahan 9");
 while (angka9 <= 100) {
   if (angka9 % 10 === 0) {
     console.log(angka9, "Kelipatan 10")

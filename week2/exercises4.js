@@ -41,6 +41,6 @@ switch(bulan) {
         tanggallengkap = tanggal+" Desember "+tahun
         break;
     default:
-        tanggallengkap = "Masukan bulan dengan benar"
+        tanggallengkap = "Invalid month"
 }
   console.log(tanggallengkap);

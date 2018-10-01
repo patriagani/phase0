@@ -14,8 +14,8 @@ while (angka < 20) {
 
 console.log("LOOPING KEDUA");
 while (angka > 2) {
-  angka = angka - 2
   console.log(angka, "- I will become fullstack developer")
+  angka = angka - 2
 }
 
 

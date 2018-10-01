@@ -1,46 +1,46 @@
 var tanggal = 17;
-var bulan = 6;
+var bulan = 8;
 var tahun = 1945;
+var tanggallengkap
 
 switch(bulan) {
     case 1:
-        bulan = "Januari"
+        tanggallengkap = tanggal+" Januari "+tahun
         break;
     case 2:
-        bulan = "Februari"
+        tanggallengkap = tanggal+" Februari "+tahun
         break;
     case 3:
-        bulan = "Maret"
+        tanggallengkap = tanggal+" Maret "+tahun
         break;
     case 4:
-        bulan = "April"
+        tanggallengkap = tanggal+" April "+tahun
         break;
     case 5:
-        bulan = "Mei"
+        tanggallengkap = tanggal+" Mei "+tahun
         break;
     case 6:
-        bulan = "Juni"
+        tanggallengkap = tanggal+" Juni "+tahun
         break;
     case 7:
-        bulan = "Juli"
+        tanggallengkap = tanggal+" Juli "+tahun
         break;
     case 8:
-        bulan = "Agustus"
+        tanggallengkap = tanggal+" Agustus "+tahun
         break;
     case 9:
-        bulan = "September"
+        tanggallengkap = tanggal+" September "+tahun
         break;
     case 10:
-        bulan = "Oktober"
+        tanggallengkap = tanggal+" Oktober "+tahun
         break;
     case 11:
-        bulan = "November"
+        tanggallengkap = tanggal+" November "+tahun
         break;
     case 12:
-        bulan = "Desember"
+        tanggallengkap = tanggal+" Desember "+tahun
         break;
     default:
-        bulan = "Masukan bulan dengan benar"
+        tanggallengkap = "Masukan bulan dengan benar"
 }
-
-console.log(tanggal+" "+bulan+" "+tahun);
+  console.log(tanggallengkap);

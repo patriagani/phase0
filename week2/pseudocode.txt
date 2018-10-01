@@ -1,5 +1,6 @@
 1. Newton Second Law
 
+- Pseudocode -
 STORE "masa" with any value
 STORE "percepatan" with any value
 STORE "gaya" without any value
@@ -13,6 +14,16 @@ DISPLAY "gaya"
 
 2. Tahun Kabisat
 
+- Algoritma -
+1. Masukan nilai "tahun"
+2. Lakukan perhitungan "tahun" dibagi 4
+3. Lakukan perhitungan "tahun" dibagi 100
+4. Lakukan perhitungan "tahun" dibagi 400
+5. Jika nilai sisa bagi "tahun" dengan 4 adalah 0 dan nilai sisa bagi tahun dengan 100 tidak 0, maka "tahun" tersebut adalah TAHUN KABISAT
+6. Jika nilai sisa bagi "tahun" dengan 4, 100 dan 400 adalah 0 , maka "tahun" tersebut adalah TAHUN KABISAT
+7. Selain itu "tahun" tersebut BUKAN TAHUN KABISAT
+
+- Pseudocode -
 STORE "tahun" with any value
 STORE "habis4" without any value
 STORE "habis100" without any value
@@ -38,6 +49,7 @@ ELSE
 
 3. Laundry Day
 
+- Pseudocode -
 STORE "pakaian" with 0
 
 WHILE "pakaian" <20
@@ -49,6 +61,15 @@ DO "nyalakan mesin cuci"
 
 4. Periksa Kuku
 
+- Algoritma -
+1. Masukan jumlah "siswa" sama dengan 0
+2. Baca jumlah "siswa", apabila jumlah "siswa" lebih kecil dari 40, tambah jumlah "siswa" dengan 1, sedangkan apabila jumlah "siswa" sudah 40 berarti selesai
+3. Periksa kuku "siswa"
+4. Apabila kuku "siswa" panjang, beri hukuman kepada "siswa"
+5. Apabila kuku "siswa" tidak panjang, beri pujian kepada "siswa"
+6. Lakukan langkah 2 hingga 5 sampai semua "siswa" telah diperiksa
+
+- Pseudocode -
 STORE "siswa" with 0
 
 WHILE "siswa" < 40

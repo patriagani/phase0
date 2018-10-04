@@ -3,7 +3,19 @@ Diberikan sebuah function targetTerdekat(arr) yang menerima satu parameter berup
 */
 
 function targetTerdekat(arr) {
-  // you can only write your code here!
+  var indexo = arr.indexOf("o")
+  var selisih = 0
+  var jarak = []
+  if (arr.indexOf("x") == -1) {
+    return 0
+  }
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === "x") {
+      selisih = Math.abs(i - indexo)
+      jarak.push(selisih)
+    }
+  } jarak.sort()
+    return jarak[0]
 }
 
 // TEST CASES

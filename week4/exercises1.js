@@ -4,13 +4,16 @@ Diberikan sebuah function angkaPrima(angka) yang menerima satu parameter berupa 
 
 function angkaPrima(angka) {
   var check = true
-  if (angka === 2 || angka === 3) {
-    check = true
-  } else if (angka % 2 === 0 || angka % 3 === 0) {
-    check = false
-  } else {
-    check = true
-  } return check
+  if (angka == 1) {
+    return false
+  }
+  for (var i = 2; i < angka; i++) {
+    if (angka % i == 0) {
+      check = false
+      break;
+    }
+  }
+  return check
 }
 
 // TEST CASES

@@ -9,8 +9,8 @@ function digitPerkalianMinimum(angka) {
       faktor.push(String(i)+String(angka/i))
     }
   }
-  faktor.sort()
-  return faktor[faktor.length-1].length
+  faktor.sort(function(a, b){return a-b})
+  return faktor[0].length
 }
 
 // TEST CASES

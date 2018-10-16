@@ -14,10 +14,10 @@ Contoh:
 
 function makanTerusRekursif(waktu) {
   var banyakMakan = 1
-  if (waktu == 0) {
+  if (waktu <= 0) {
     return 0
   }
-  else if (waktu - 15 < 0) {
+  else if (waktu < 15) {
     return 1
   }
   else {

@@ -41,7 +41,7 @@ function highestScore (students) {
       score: 0
     }
   }
-
+  //Memasukan nilai maksimum
   for (var i = 0; i < students.length; i++) {
     for (var j = 0; j < kelas.length; j++) {
       if (students[i].class === kelas[j] && students[i].score > dataObj[kelas[j]].score) {
